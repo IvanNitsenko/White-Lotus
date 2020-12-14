@@ -85,7 +85,7 @@ body {
     position: absolute;
     top: 7px;
     left: calc(50% - 69px);
-    z-index: 1000;
+    z-index: 994;
 }
 
 .logo-title {
@@ -927,7 +927,7 @@ body {
     position: absolute;
     top: -28px;
     left: calc(50% - 69px);
-    z-index: 1001;
+    z-index: 995;
 }
 
 #footer-container .phone {
@@ -948,7 +948,7 @@ body {
     left: 0;
     top: 0;
     background: rgba(0, 0, 0, 0.91);
-    z-index: 9998;
+    z-index: 998;
     justify-content: center;
     align-items: center;
 }
@@ -965,7 +965,6 @@ body {
     box-sizing: border-box;
     height: 472px;
     margin: auto;
-    margin-top: 5%;
 }
 
 #spa-form-container .close {
@@ -1026,7 +1025,6 @@ body {
     box-sizing: border-box;
     height: 472px;
     margin: auto;
-    margin-top: 5%;
     padding: 195px 125px;
 }
 

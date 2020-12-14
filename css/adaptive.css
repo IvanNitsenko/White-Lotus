@@ -1,0 +1,786 @@
+@media screen and (max-width: 1439px) {
+    #lavender {
+    display: none;
+    }
+}
+
+@media screen and (max-width: 1242px) {
+    #faq-container #faq-often {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 1240px) {
+  .container {
+      width: 95%;
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+
+    #gallery-container .slick-list {
+        overflow: hidden;
+    }
+
+    #masters-container .slick-prev {
+        left: calc(50% - 50px);
+    }
+
+    #masters-container .slick-next {
+        left: calc(50% + 30px);
+    }
+
+    .slick-slider {
+        width: 800px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    #expectations {
+        padding-bottom: 0;
+    }
+
+    #spa-block-container {
+        width: 800px;
+        margin: 0 auto;
+        justify-content: space-evenly;
+    }
+
+    #spa-block-container .spa-block {
+        margin-bottom: 30px;
+    }
+
+    #map {
+        width: 690px;
+        height: 400px;
+        border-radius: 15px;
+        margin-top: 5px;
+    }
+
+    #map iframe {
+        width: 690px;
+        height: 400px;
+        border-radius: 15px;
+        box-sizing: border-box;
+        border: 1px solid white;
+    }
+
+    #spa #spa-text {
+        text-align: center;
+    }
+
+    #expectations .block-title {
+        text-align: center;
+    }
+
+    #masters .block-title {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #gallery {
+        text-align: center;
+    }
+
+    #gallery #gallery-text {
+        width: 620px;
+        margin: 31px auto 46px auto;
+    }
+
+    #faq-container .block-title {
+        text-align: center;
+    }
+
+    #masters-text {
+        margin: 25px auto 41px auto;
+        text-align: center;
+    }
+
+    #spa #spa-text {
+        margin: 30px auto 45px auto;
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    #gallery-rose2 {
+       display: none;
+    }
+
+    #expectation-block-container {
+        justify-content: center;
+    }
+
+    #expectations .expectation-block:first-child {
+        margin-right: 50px;
+    }
+
+    #expectations .expectation-block:last-child {
+        margin-left: 0;
+    }
+
+    #expectations .spa-icon {
+        margin-left: 0;
+    }
+
+    #expectations .expectation-block:last-child {
+        margin-left: 50px;
+    }
+
+    #spa {
+        margin-top: 100px;
+    }
+
+    #masters {
+        padding-bottom: 100px;
+    }
+
+    #gallery {
+        padding-bottom: 100px;
+    }
+
+    #faq-container #faq-seldom {
+        padding: 15px 27px;
+        width: 320px;
+    }
+
+    #faq-container #faq-seldom-text {
+        font-size: 14px;
+    }
+
+    #contact-container .contacts-title {
+        font-size: 16px;
+    }
+
+    #contact-text-block .contact-text {
+        font-size: 14px;
+        font-family: "Nunito-Regular", sans-serif;
+        color: rgb(44, 5, 38);
+    }
+
+    #time-phone {
+        margin-left: 55px;
+    }
+
+    #faq-seldom-rose {
+        bottom: -15px;
+        right: -15px;
+    }
+
+    #footer-container #footer-time {
+        margin-left: 380px;
+    }
+
+}
+
+/*768-1023*/
+@media screen and (max-width: 1023px) {
+    #main {
+        height: 650px;
+        background-position: top center;
+    }
+
+    #main-container {
+        padding-top: 80px;
+    }
+
+    #header-container #menu {
+        width: 250px;
+    }
+
+    #main-container-title {
+        font-size: 32px;
+        width: 432px;
+    }
+
+    #main-container-text br {
+        display: none;
+    }
+
+    #main-container-text {
+        font-size: 18px;
+        width: 390px;
+    }
+
+    #expectations .expectation-block:first-child {
+        margin-right: 0;
+    }
+
+    #expectations .expectation-block:last-child {
+        margin-left: 0;
+    }
+
+    #expectations .expectation-block:last-child .expectation-text {
+        width: 282px;
+    }
+
+    #spa #spa-text {
+        margin: 30px auto 45px auto;
+    }
+
+    #spa-block-container {
+        width: 700px;
+    }
+
+    #gift {
+        height: 450px;
+        background-position: top center;
+        padding-top: 120px;
+    }
+
+    #gift .block-title {
+        font-size: 24px;
+    }
+
+    #gift #gift-text {
+        font-size: 14px;
+        width: 275px;
+    }
+
+    #masters {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    #faq-container #faq-block {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #faq-container #faq-seldom {
+        padding: 30px 37px;
+        width: 600px;
+    }
+
+    #faq-seldom-rose {
+        bottom: 3px;
+        right: 55px;
+    }
+
+    #faq {
+        height: 756px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #faq-container .block-title {
+        margin-bottom: 15px;
+    }
+
+    #faq-container h3 {
+        margin-bottom: 10px;
+    }
+
+    .ui-accordion .ui-accordion-header {
+        padding: 15px;
+    }
+
+    .ui-accordion .ui-accordion-content {
+        padding: 15px;
+    }
+
+    #faq-often .faq-often-title span {
+        top: 16px;
+    }
+
+        #faq-seldom-rose {
+            bottom: 5px;
+            right: 120px;
+        }
+
+    #contact {
+        padding: 80px 0 120px 0;
+    }
+
+    #contacts-rose {
+        display: none;
+    }
+
+    #contact-text-block .block-title {
+        margin-bottom: 20px;
+    }
+
+    #contact-text-block .contact-title {
+        font-size: 16px;
+    }
+
+    #contact-text-block .contact-text {
+        font-size: 14px;
+    }
+
+    #contact-container .contacts-title {
+        font-size: 16px;
+        width: 140px;
+    }
+
+    #contact-text-block .address {
+        width: 200px;
+    }
+
+    #time-phone {
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (max-width: 839px) {
+    .slick-slider {
+        width: 400px;
+    }
+
+    #masters-container .slick-prev {
+        left: calc(50% - 80px);
+    }
+
+    #masters-container .slick-next {
+        left: calc(50% + 60px);
+    }
+
+    #map {
+        width: 598px;
+        height: 398px;
+    }
+
+    #map iframe {
+        width: 598px;
+        height: 398px;
+    }
+
+        #footer-container #footer-time {
+            margin-left: 0;
+        }
+
+    #footer-phone {
+        display: none;
+    }
+
+    #spa-form #form-answer {
+        padding: 105px 125px;
+        height: 372px;
+        margin: auto;
+        margin-top: 3%;
+    }
+
+    #spa-form-container {
+        width: 428px;
+        padding: 30px 60px;
+        height: 372px;
+        margin: auto;
+        margin-top: 3%;
+    }
+
+    #spa-form-container #form #reserve-button {
+        margin: 0 auto 0 auto;
+        padding: 0 56px;
+    }
+
+}
+
+@media screen and (max-width: 930px) {
+    #map {
+        width: 470px;
+        height: 398px;
+    }
+
+    #map iframe {
+        width: 470px;
+        height: 398px;
+    }
+}
+
+@media screen and (max-width: 756px) {
+    .container {
+        width: 95%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #burger {
+        display: block;
+    }
+
+    #header {
+        position: relative;
+    }
+
+    #header-container #menu {
+        top: 0;
+        position: fixed;
+        background: rgba(0, 0, 0, 0.8);
+        z-index: 99999;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        padding: 20px 0;
+        display: none;
+        margin: 0 auto;
+    }
+
+    #header-container #menu a {
+        font-size: 18px;
+        font-family: "Nunito-SemiBold", sans-serif;
+        color: rgb(250, 67, 219);
+    }
+
+    #header-container #menu a:hover {
+        color: rgb(131, 34, 115);
+    }
+
+    #header-container #menu .menu-item {
+        display: block;
+        width: auto;
+        margin-bottom: 10px;
+    }
+
+    #header #header-container.menu-open #menu {
+        display: block;
+    }
+
+    #spa-rose4 {
+        display: none;
+    }
+
+    #spa {
+        margin-top: 40px;
+    }
+
+    #spa-block-container {
+        width: 300px;
+    }
+
+    #expectations {
+        padding-top: 40px;
+    }
+
+    #expectations .block-title {
+        margin-bottom: 28px;
+    }
+
+    #gift {
+        padding-top: 40px;
+        height: 400px;
+    }
+
+    #gift .block-title {
+        width: 185px;
+    }
+
+        #gift #gift-text {
+            width: 165px;
+        }
+
+    #gift-container button {
+        padding: 10px 10px;
+    }
+
+    #masters-rose {
+        display: none;
+    }
+
+    #gallery #gallery-text {
+        width: 420px;
+    }
+
+    #faq-seldom-rose {
+        display: none;
+    }
+
+    #social {
+        width: 200px;
+    }
+
+    #lavender-contacts {
+        display: none;
+    }
+
+    #contact {
+        padding: 40px 0 40px 0;
+    }
+
+    #contact-container {
+        flex-wrap: wrap;
+    }
+
+    #map {
+        margin: 0 auto;
+    }
+
+    #contact-text-block {
+        margin: 0 auto 20px auto;
+        text-align: center;
+    }
+
+    #contact-container .contacts-title {
+        width: 280px;
+        text-align: center;
+    }
+
+    #contact-text-block .address {
+        width: 280px;
+        text-align: center;
+    }
+
+    #time-phone {
+        margin-left: 0;
+    }
+
+    #faq-container h3 {
+        font-size: 14px;
+    }
+
+    .ui-accordion .ui-accordion-content {
+        font-size: 12px;
+    }
+
+    #faq-container .block-title {
+        font-size: 24px;
+    }
+
+    #spa-form-container {
+        width: 220px;
+        padding: 20px 20px;
+        height: 372px;
+        margin: auto;
+        margin-top: 3%;
+    }
+
+    #spa-form-container #form .input {
+        width: 180px;
+        font-size: 12px;
+        font-family: "Nunito-Regular", sans-serif;
+        color: rgb(44, 5, 38);
+        padding: 13px 10px;
+        margin-bottom: 20px;
+    }
+
+    #spa-form-container #form #reserve-button {
+        padding: 0 15px;
+    }
+
+    #spa-form-container .close {
+        top: 0;
+        right: -35px;
+    }
+
+    #spa-form-container .close svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    #spa-form #form-answer {
+        padding: 30px 10px;
+        height: 50%;
+        width: 220px;
+        margin: auto;
+        margin-top: 3%;
+    }
+
+    #spa-form #form-answer .close {
+        top: 0;
+        right: -35px;
+    }
+
+    #spa-form #form-answer .close svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    #spa-form #form-answer #form-answer-text {
+        width: 100%;
+    }
+
+}
+
+
+@media screen and (max-width: 579px) {
+    #main-container {
+        padding-top: 40px;
+    }
+
+    #main-container-title {
+        font-size: 22px;
+        width: 300px;
+    }
+
+    #main-container-text {
+        width: 300px;
+    }
+
+    #spa #spa-text {
+        width: 290px;
+    }
+
+    #expectations #spa .block-title {
+        font-size: 24px;
+    }
+
+    #gift {
+        margin-top: 20px;
+    }
+
+    #expectations .expectation-block {
+        margin-bottom: 40px;
+    }
+
+    #spa {
+        margin-top: 5px;
+    }
+
+    #span-button {
+        display: none;
+    }
+
+    #gift-container button {
+        padding: 10px 25px;
+    }
+
+    #masters {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    #masters-text {
+        width: 300px;
+        margin: 15px auto 21px auto;
+    }
+
+    #faq-container #faq-seldom {
+        padding: 10px;
+    }
+
+    #faq-container input {
+        margin-top: 15px;
+    }
+
+    #map {
+        width: 280px;
+        height: 278px;
+    }
+
+    #map iframe {
+        width: 280px;
+        height: 278px;
+    }
+
+    #footer-container #footer-time {
+        display: none;
+    }
+
+    #footer-container {
+        justify-content: flex-end;
+    }
+
+    #social {
+       width: 225px;
+    }
+
+    #footer-container .logo {
+        top: -28px;
+        left: 10px;
+    }
+}
+
+@media screen and (max-width: 379px) {
+    #gallery-container .gallery-img.slick-active img:hover {
+        transform: scale(1, 1);
+    }
+}
+
+
+@media screen and (max-width: 479px) {
+    #header-phone {
+        display: none;
+    }
+
+    #main-container {
+        padding-top: 10px;
+    }
+
+    #main {
+        height: 560px;
+    }
+
+    #expectations .block-title {
+        font-size: 24px;
+    }
+
+    #expectations .expectation {
+        margin: 0 auto 10px auto;
+    }
+
+    #expectations .expectation-text {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    #expectations .expectation-block {
+       flex-wrap: wrap;
+        margin:0 auto 25px auto;
+        text-align: center;
+    }
+
+    .slick-slider {
+        width: 300px;
+    }
+
+    #gallery #gallery-text {
+        width: 300px;
+    }
+
+    #gallery-container .gallery-img img {
+        width: 300px;
+    }
+
+    #gallery-container li {
+        margin: 0 3px;
+    }
+
+    #gallery-container .slick-prev {
+        left: calc(50% - 155px);
+    }
+
+    #gallery-container .slick-next {
+        right: calc(50% - 155px);
+    }
+
+    #contact {
+        padding: 20px 0 20px 0;
+    }
+
+    .faq-often-title-text {
+        width: 242px;
+    }
+
+    #faq-container #faq-seldom-text {
+        line-height: 16px;
+    }
+
+    #faq-container .block-title {
+        font-size: 20px;
+    }
+
+    #faq-container h3 {
+        font-size: 12px;
+    }
+
+    .ui-accordion .ui-accordion-content {
+        font-size: 11px;
+    }
+
+    #footer {
+        padding: 85px 0 15px 0;
+        height: 119px;
+    }
+
+    #footer-container {
+        justify-content: center;
+    }
+
+    #footer-container .logo {
+        top: -83px;
+        left: calc(50% - 69px);
+    }
+
+
+
+}
